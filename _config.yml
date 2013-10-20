@@ -1,3 +1,6 @@
-name: Your New Jekyll Site
+name: Nikos Kokolakis
 markdown: redcarpet
 pygments: true
+development: true
+
+permalink: /blog/:year/:month/:day/:title.html

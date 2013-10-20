@@ -1,0 +1,213 @@
+@import url("http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic&subset=latin,latin-ext");
+
+html > body {
+	font-family: 'Sorts Mill Goudy', Georgia, 'Times New Roman', serif;
+	font-size: 20px;
+	font-weight: 400;
+	font-height: 31px;
+	color: #222;
+	line-height: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 500;
+	line-height: 70px;
+	margin-bottom: 10px;
+}
+
+h2, h3, h4, h5, h6 {
+}
+
+h1 {
+	font-size: 2.5em;
+	margin: 0;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+h4 {
+	font-size: 1.4em;
+}
+
+h5 {
+	font-size: 1.1em;
+}
+
+a {
+	color: #843030;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.wrap {
+	max-width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wrap .top {
+	margin-top: 20px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wrap .top .header {
+	display: block;
+	float: left;
+}
+
+.wrap .top .header a {
+	color: black;
+	font-size: 130%;
+}
+
+.wrap .top .header a:hover {
+	text-decoration: none;
+	color: #843030;
+}
+
+.wrap .top .seperator {
+	height: 1px;
+	width: 100%;
+	background: #A2A2A2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	clear: both;
+}
+
+.wrap .top .nav {
+	float: right;
+	text-align: right;
+	display: block;
+}
+
+.content {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.content .note {
+	color: #666;
+}
+
+.content .front {
+	margin-top: 60px;
+	text-align: center;
+}
+
+.content ul.posts-listing {
+	margin-top: 60px;
+	list-style-type: none;
+}
+
+.content ul.posts-listing li {
+	margin-top: 20px;
+}
+
+.content ul.posts-listing li .title {
+	font-size: 130%;
+	margin-left: 20px;
+}
+
+.content ul.posts-listing li .title a {
+	color: #222;
+}
+
+.content ul.posts-listing li .title a:hover {
+	text-decoration: none;
+	color: #843030;
+}
+
+.content ul.posts-listing li .date {
+	color: #DDD;
+}
+
+.content ul.posts-listing li .description {
+	font-size: 90%;
+}
+
+.content .post h1 a {
+	color: #222;
+}
+
+.content .post h1 a:hover {
+	text-decoration: none;
+	color: #843030;
+}
+
+.content .post .date {
+	margin-top: -6px;
+	margin-bottom: 40px;
+	color: #666;
+}
+
+.content .post .seperator {
+	height: 1px;
+	width: 50%;
+	background: #A2A2A2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	clear: both;
+}
+
+.content .post .licence {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.content .post .licence img {
+	margin-right: 5px
+}
+
+.highlight > code, .highlight > pre {
+	font-family: Consolas,Menlo, "Courier New", monospace;
+	font-size: 16px;
+	line-height: 25px;
+	overflow-x: auto;
+	margin-left: -25px;
+	background-color: #222;
+	border: 1px solid #666;
+	border-left: 10px solid #666;
+	padding: 11px 15px 12px;
+}
+
+.highlight pre::-webkit-scrollbar{
+	height: 25px;
+}
+
+.highlight pre::-webkit-scrollbar-button:start, .highlight pre::-webkit-scrollbar-button:end {
+	display: none;
+}
+
+.highlight pre::-webkit-scrollbar-track-piece {
+	background-color: #eee;
+}
+
+.highlight pre::-webkit-scrollbar-thumb {
+	background-color: #999;
+	border: 7px solid #eee;
+	-webkit-background-clip: padding-box;
+	-webkit-border-radius: 12px;
+}
+
+p code, li code, table code {
+	border: 1px solid #ccc;
+	background-color :#F8F8F8;
+	font-size: 16px;
+	padding: 1px 3px;
+	line-height: 20px;
+	margin: 0;
+	white-space: nowrap;
+}

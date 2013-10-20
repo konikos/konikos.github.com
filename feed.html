@@ -1,0 +1,26 @@
+---
+permalink: /blog/feed.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>{{ site.name }}</title>
+
+	<link href="{{ full_url(resource) }}" rel="self" />
+	<link href="{{ full_url('/') }}" />
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>{{ page.url }}</id>
+
+   {% for post in site.posts %}
+		<entry>
+			<title type="html">{{ post.title }}</title>
+			<author><name>Nikos Kokolakis</name></author>
+			<id>{{ post.id }}</id>
+			<link href="{{ post.url }}" />
+			<published>{{ post.date | date_to_xmlschema }}</published>
+			{% if post.updated %}
+				<updated>{{ post.updated | date_to_xmlschema }}</updated>
+			{% endif %}
+		</entry>
+	{% endfor %}
+</feed>

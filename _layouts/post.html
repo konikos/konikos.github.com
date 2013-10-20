@@ -1,9 +1,23 @@
 ---
 layout: default
 ---
+
+<div class="post">
+   <h1 class="title"><a href="{{ post.url }} ">{{ page.title }}</a></h1>
+   <div class="date">Posted on {{ page.date | date_to_string }}</div>
+   {{ content }}
+   <div class="seperator"></div>
+   <div class="licence">
+      <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
+         <img src="/img/cc-cc-grey.png" title="Content under the CC BY 3.0 license"><img src="/img/cc-by-grey.png" title="Content under the CC BY 3.0 license">
+      </a>
+   </div>
+</div>
+
+
 <h2>{{ page.title }}</h2>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
-{{ content }}
+   {{ content }}
 </div>

@@ -1,10 +1,3 @@
----
-layout: default
-title: Your New Jekyll Site
----
-
-<div class="front">
-{% capture front %}
 Hello, I'm Nikos.
 
 I am an undergraduate student at the
@@ -24,7 +17,3 @@ also find me on [Facebook][facebook] or [Bitbucket][bitbucket].
 [email]: mailto:nikos@konikos.com "nikos@konikos.com"
 [facebook]: http://www.facebook.com/kokolakisnikos
 [bitbucket]: http://bitbucket.org/konikos
-
-{% endcapture %}
-{{ front | markdownify }}
-</div>
