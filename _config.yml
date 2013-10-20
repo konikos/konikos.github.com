@@ -1,6 +1,6 @@
 name: Nikos Kokolakis
 markdown: redcarpet
 pygments: true
-development: true
+development: false
 
 permalink: /blog/:year/:month/:day/:title.html
