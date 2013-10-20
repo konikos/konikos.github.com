@@ -1,0 +1,10 @@
+---
+layout: default
+title: 404 Not Found
+description: 404 Not Found
+---
+
+# 404 Not Found
+
+No really. There is no such page, maybe you followed a dead link, or you typed
+a random url. No matter which, the page is not found.
