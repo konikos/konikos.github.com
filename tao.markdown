@@ -79,7 +79,7 @@ A programmer from a very large computer company went to a software conference an
 
 The manager said: "I should have never sent you to the conference. Those programmers live beyond the physical world. They consider life absurd, an accidental coincidence. They come and go without knowing limitations. Without a care, they live only for their programs. Why should they bother with social conventions?
 
-"They are alive within the Tao".
+They are alive within the Tao".
 
 ### 2.4
 
